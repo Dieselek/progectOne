@@ -1,6 +1,5 @@
 <?php
- //require '../vendor/autoload.php';
-//require '../app/start.php';
+require '../vendor/autoload.php';
+require '../app/start.php';
 
 
-echo 'asdjkflkjasdglkf';
