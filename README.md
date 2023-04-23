@@ -8,7 +8,7 @@
 - Console command
 - API with Swagger
 - Admin side (Back Office or BO)
-  -- Access roles
+  - Access roles
   `admin`
   `content manager`
 - SEO 
