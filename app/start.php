@@ -1,6 +1,7 @@
 <?php
 require 'routing.php';
 
+use Delight\Auth\Auth;
 use DI\ContainerBuilder;
 use League\Plates\Engine;
 $builder = new ContainerBuilder();
@@ -11,7 +12,12 @@ $container=$builder->addDefinitions([
     },
     PDO::class=>function()
     {
-        return new PDO("mysql:host=localhost;dbname=product","root","123456");
+        return new PDO("mysql:host=localhost;dbname=test1","dima","3696");
+    },
+    Auth::class=>function()
+    {
+    $db=new PDO('mysql:host=localhost; dbname=test1','dima','3696');
+    return new Auth($db);
     }
 ]);
 $container = $builder->build();

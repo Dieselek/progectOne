@@ -10,12 +10,12 @@
 </head>
 <body>
 <div class="nav">
-    <h2 class="title"><a href="/adminka">Адмінка</a></h2>
+    <h2 class="title"><a href="/admin">Адмінка</a></h2>
     <h2 class="title-1">Привіт Адмін</h2>
 </div>
 <div class="colum" >
     <ul class="colum-1">
-        <li><a href="/adminka">Користувачі</a></li><br>
+        <li><a href="/admin">Користувачі</a></li><br>
         <li><a href="/adminCategory">Категорії</a></li><br>
         <li><a href="/adminImages">Картинки</a></li>
     </ul>
